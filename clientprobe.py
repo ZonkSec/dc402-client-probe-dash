@@ -66,7 +66,11 @@ class probeEntry:
 
 
 def printAscii():
+<<<<<<< HEAD
     print colored("""
+=======
+    print """
+>>>>>>> da62cea73e82aa92e3eb78fc14e38fdbb216b458
 
 $$$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\   $$$$$$\  
 $$  __$$\ $$  __$$\ $$ |  $$ |$$$ __$$\ $$  __$$\ 
