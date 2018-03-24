@@ -12,3 +12,6 @@ commandline arg, like so:
 ```
 python clientprobe.py wlan0mon
 ```
+
+## Credit
+OUI and dBm parsing borrowed from: https://github.com/nikharris0/probemon/blob/master/probemon.py
