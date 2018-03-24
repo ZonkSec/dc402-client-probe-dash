@@ -26,7 +26,7 @@ def packet_handler(pkt):
 
            #clear screen and print ascii
            print(chr(27) + "[2J")
-           printAscci()
+           printAscii()
            
            #sort probes so newest on top. limit limit lines printed to screen. print data
            lineCount = 0
@@ -51,7 +51,7 @@ class probeEntry:
             self.oui = "UNKNOWN"
 
 
-def printAscci():
+def printAscii():
     print """
 
 $$$$$$$\   $$$$$$\  $$\   $$\  $$$$$$\   $$$$$$\  
@@ -65,6 +65,6 @@ $$$$$$$  |\$$$$$$  |      $$ |\$$$$$$  /$$$$$$$$\
                                                                                                  
 """
 print(chr(27) + "[2J")
-printAscci()
+printAscii()
 print "No probe requests seen yet!"
 sniff(iface = sys.argv[1], count=0, store=0, prn=packet_handler)
