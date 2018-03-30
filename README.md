@@ -1,5 +1,9 @@
 # dc402-client-probe-dash
 
+a simple tool that displays wireless SSID beacons in a digestable way.  The intended use is to display the output as a "wall" to passers-by.
+
+![exampleui](img/ExampleUI.png "simple example screencap")
+
 ## Requirements
 ```
 pip install -r requirements.txt
