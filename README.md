@@ -18,14 +18,14 @@ Use airmon-ng (part of aircrack-ng) to get wifi adapter into monitor mode, and t
 commandline arg, like so:
 
 ```
-airmon-ng start wlan0
-python clientprobe.py wlan0mon
+# airmon-ng start wlan0
+# python clientprobe.py wlan0mon
 ```
 
 when done, you likely want to return the interface to non-monitor mode:
 
 ```
-airmon-ng stop wlan0
+# airmon-ng stop wlan0
 ```
 
 ## Credit
